@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <div class="cabeça-mario">
+        <img src="./img/icon.png" alt="logo Mario">
+        <a href="#">Home</a>
+        <a href="#">Serviços</a>
+        <a href="#">Sobre Nós</a>
+        <a href="#">fale-conosco</a>
+
+
+
+
+    </div>
+
+<div class="mascara-formulario" onclick="esconderform()"></div>
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="Logo Mario" class="logo-mario">
+
+
+            <h1>🔧 Encanadores Mario & Luigi</h1>
+            <h1>Resolvendo seus problemas hidráulicos com estilo!</h1>
+            
+            <h1>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados,
+                canos entupidos ou torneiras que não param de pingar? Não se preocupe, estamos aqui para ajudar.
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </h1>
+
+
+            <button onclick="mostrarform()" class="botaoentreemcontato">Entre em Contato</button>
+
+        </div>
+
+
+        <div class="hero">
+            <img src="./img/mario.png" alt=" mario e Luigi" class="mario-luigi">
+        </div>
+
+    </div>
+
+    <a href="https://wa.me/5595984286524?text=ola%20quero%20servi%C3%A7o%20dos%20irm%C3%A3os%20%20mario"
+        class="link-whatsapp">
+        <img src="./img/image.png" alt="link WhatsApp">
+    </a>
+
+    <form class="formulario" 
+    action="https://formcarry.com/s/VHUFmwV1xOE" 
+    method="POST" enctype="multipart/form-data">
+        <input placeholder="seu-nome" type="text" name="nome">
+        <input placeholder="seu-telefone" type="tel" name="telefone">
+        <textarea placeholder="sua-mensagem" name="duvidas"></textarea>
+        <button  type="submit" class="orçamento">Pedir Orçamento</button>
+</form>
+    <div class="caixa-video">
+        <div class="mascara"></div>
+        <video autoplay muted loop playsinline>
+            <source src="./img/video (1).mp4" type="video/mp4">
+        </video>
+    </div>
+            
+    <p>© 2026 Encanadores Mario & Luigi</p>
+
+</body>
+
+
+<script src="script.js"></script>
+</html>
